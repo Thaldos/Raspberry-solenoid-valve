@@ -1,5 +1,5 @@
 # Raspberry-solenoid-valve
-Project to handle a solenoid valve with a Rapsberry to watering the garden
+Project to handle a solenoid valve with a Raspberry to watering the garden
 
 ## Prerequisites
 To build this project, you'll need:
