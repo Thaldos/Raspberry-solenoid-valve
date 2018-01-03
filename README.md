@@ -3,6 +3,9 @@ Project to handle a solenoid valve with a Raspberry to watering the garden
 
 ## Prerequisites
 To build this project, you'll need:
+
+[![Prerequisites](https://i.imgur.com/gMnlF2g.jpg)](https://i.imgur.com/gMnlF2g.jpg)
+
 * [(2) A Raspberry Pi 3 model B](https://www.adafruit.com/product/3055) (40€)
 * [(8) A SD card](http://boutique.semageek.com/fr/773-micro-sd-16-gb-avec-adaptater-sd-et-os-noobs.html) (12€)
 * [(1) A Raspberry power supply (5V 2.5A)](https://www.amazon.fr/SainSmart-Certified-Raspberry-Adaptateur-Certification/dp/B01LHE8DBU/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1513517344&sr=1-2-catcorr&keywords=raspberry+3+Power+supply) (8€)
@@ -14,7 +17,5 @@ To build this project, you'll need:
 * Patience and passion
 
 Total: 98€
-
-[![Prerequisites](https://i.imgur.com/gMnlF2g.jpg)](https://i.imgur.com/gMnlF2g.jpg)
 
 ## Hardware
