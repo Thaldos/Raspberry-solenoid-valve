@@ -75,14 +75,14 @@ Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
 with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
 ```
 
-### Install Curl
+### Installation of Curl
 Type in Raspberry terminal :
 
 ```
 sudo apt-get install curl
 ```
 
-### Install Composer
+### Installation of Composer
 Type in Raspberry terminal :
 
 ```
@@ -106,7 +106,7 @@ network={
 
 Now when you will restart your Raspberry, it will automatically connects to this network. 
 
-### Fix your Raspberry pi IP
+### Fixing of the Raspberry pi IP
 Type in Raspberry terminal : `sudo nano /etc/network/interfaces` and append this :
 
 ```
@@ -146,12 +146,12 @@ Check if your IP address is set well:
 It should be the same.
 
 
-### Install VNC server on the Raspberry
+### Installation of VNC server on the Raspberry
 To easily access to your Raspberry every time, you should install VNC. You have to install VNC server on your Raspberry and VNC viewer on you desktop. Follow this good tutorial:
 
 https://www.raspberrypi.org/forums/viewtopic.php?t=123457
 
-### Install VNC viewer on your desktop
+### Installation of VNC viewer on your desktop
 https://www.realvnc.com/en/connect/download/viewer/
 
 Launch VNC viewer and add a new connection to `192.168.1.201:1`
@@ -160,13 +160,13 @@ Launch VNC viewer and add a new connection to `192.168.1.201:1`
 
     
 ## Project installation
-### Copy project files on your Raspberry pi
+### Setting of the project files on your Raspberry pi
 Copy all this project files to your Raspberry in `/home/pi/Raspberry-solenoid-valve/`.
 
-### Configure
+### Customization
 Customize the constants in the `config.php` file.
 
-### Download the library vendors 
+### Download of the the library vendors 
 Then type in Raspberry terminal :
 
 ```
@@ -174,7 +174,7 @@ cd /home/pi/Raspberry-solenoid-valve/library
 composer install
 ```
 
-### Set the cron tab
+### Setting of the cron tab
 On your Raspberry, in terminal, type `crontab -e` and add that line:
 ```
 0 23 * * * sudo php /home/pi/Raspberry-solenoid-valve/openthenclosethevalve.php 2>&1
