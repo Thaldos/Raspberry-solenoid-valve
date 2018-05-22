@@ -19,6 +19,8 @@ To build this project, you'll need:
 
 Total: 97€
 
+<br>
+
 ## Hardware
 Connect your devices like this :
 
@@ -158,7 +160,8 @@ Launch VNC viewer and add a new connection to `192.168.1.201:1`
 
 > Important note: be sure te be on same Wi-Fi network on both sides.
 
-    
+<br>
+
 ## Project installation
 ### Setting of the project files on your Raspberry pi
 Copy all this project files to your Raspberry in `/home/pi/Raspberry-solenoid-valve/`.
