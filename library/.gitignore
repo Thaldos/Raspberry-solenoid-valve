@@ -1,0 +1,8 @@
+vendor/
+composer.lock
+composer.phar
+phpunit.phar
+phpunit.xml
+php-cs-fixer.phar
+METRICS
+.idea/*
