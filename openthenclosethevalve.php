@@ -52,7 +52,7 @@ function openThenCloseTheValve()
 
 
 /**
- * Send notification in terminal and by email.
+ * Send notification in terminal.
  */
 function sendNotification($message)
 {
